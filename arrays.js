@@ -18,10 +18,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // opgave 3
     let containsTrixie = dogsArray.some(function (dog) {
-        dog = "Trixie"
+        return dog == "Trixie"
     }
     )
     console.log("opgave 3a", containsTrixie);
+
+    let containsBaxter = dogsArray.some(function (dog) {
+        return dog == "Baxter"
+    })
+    console.log("opgave 3b", containsBaxter);
 
 
 }) // ends DOMContentLoaded
