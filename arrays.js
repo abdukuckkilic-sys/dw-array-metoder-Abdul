@@ -15,4 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
     catsArray.push("sniffles");
 
     console.log("opgave 2", catsArray)
+
+    // opgave 3
+    let containsTrixie = dogsArray.some(function (dog) {
+        dog = "Trixie"
+    }
+    )
+    console.log("opgave 3a", containsTrixie);
+
+
 }) // ends DOMContentLoaded
