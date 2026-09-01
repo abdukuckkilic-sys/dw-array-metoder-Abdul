@@ -11,4 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("opgave 1", newNumbers)
 
+    // opgave 2
+    catsArray.push("sniffles");
+
+    console.log("opgave 2", catsArray)
 }) // ends DOMContentLoaded
