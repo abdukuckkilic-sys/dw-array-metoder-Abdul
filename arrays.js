@@ -33,5 +33,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
 
+    // opgave 5
+    et numbersTimesThree = numbersArray.map(number => number * 3);
+
+    console.log("Opgave 5", numbersTimesThree);
+
+    // opgave 6
+    console.log("Opgave 6", dogsArray.join(""));
+
 
 }) // ends DOMContentLoaded
