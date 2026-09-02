@@ -28,5 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     console.log("opgave 3b", containsBaxter);
 
+    // opgave 4
+    console.log("Opgave 4a", catsArray.find(cat => cat === "Bagheera"));
+
+    console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
+
 
 }) // ends DOMContentLoaded
