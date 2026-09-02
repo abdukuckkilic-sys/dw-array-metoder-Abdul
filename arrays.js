@@ -34,12 +34,26 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Opgave 4b", catsArray.find(cat => cat === "Salem"));
 
     // opgave 5
-    et numbersTimesThree = numbersArray.map(number => number * 3);
+    let numbersTimesThree = numbersArray.map(number => number * 3);
 
     console.log("Opgave 5", numbersTimesThree);
 
     // opgave 6
     console.log("Opgave 6", dogsArray.join(""));
+
+    // opgave 7
+    console.log("Opgave 7a", fruitsArray.indexOf("Mango"));
+
+    console.log("Opgave 7b", fruitsArray.indexOf("Blåbær"));
+
+    // opgave 8
+    let pollyIndex = dogsArray.indexOf("Polly");
+
+    if (pollyIndex !== -1) {
+        dogsArray.splice(pollyIndex, 1);
+    }
+
+    console.log("Opgave 8", dogsArray);
 
 
 }) // ends DOMContentLoaded
